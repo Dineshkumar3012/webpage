@@ -936,7 +936,6 @@ sec2{
 	top:0;
 	background-color:#0a224080;
 	width:17%;
-	height:300px;
 	text-align:center;
 	padding:10px;
 	line-height:2.5;
@@ -945,6 +944,7 @@ sec2{
 	transform:translatex(-20px);
 	transition:0.5s;
 	z-index:2;
+	padding-bottom: 145px;
 }
 
 .team_img:hover .team_icon{
@@ -1467,7 +1467,7 @@ opacity:1;
 }
 
 .foot_btn input{
-	padding: 11px 100px 12px 20px;
+	padding: 10px 100px 10px 20px;
 	border-radius: 5px;
     width: 100%;
 	border:none;

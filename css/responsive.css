@@ -28,6 +28,9 @@
 	.testimonials_sec img{
 		width:25%;
 	}
+	#banner{
+		height:90vh;
+	}
 	#faq_container{
 		padding:10px 10px;
 	}
