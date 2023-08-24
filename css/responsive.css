@@ -26,10 +26,10 @@
 	
 	
 	.testimonials_sec img{
-		width:22%;
+		width:18%;
 	}
-	#banner{
-		height:90vh;
+	#banner_container{
+		height:450px;
 	}
 	#faq_container{
 		padding:10px 10px;
@@ -129,7 +129,7 @@
 
 
 }
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
  /* tab */
 @media (min-width:768px) and (max-width:999px){
 	.d-none{
@@ -146,6 +146,10 @@
 	
 	.contain2{
 		width:100%;
+	}
+	
+	x#banner_container{
+		height:500px;
 	}
 	#contact_container{
 		padding:0 20px;
@@ -188,7 +192,6 @@
 
 .col-md-6{
 	width:50%;
-	/* padding:0 15px; */
 }
 .coll{
 	width:100%;
@@ -226,11 +229,12 @@
 
 .col-md-12{
 	width:100%;
-	/* padding:0 15px; */
 }
 
 
 }
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* lap */
 
 @media(min-width:999px){
 	.d-block{
@@ -238,16 +242,3 @@
 		}
 }
 
-
-/* Header Section Starts */
-/* @media (max-width:768px){ */
-	
-/* } */
-/* @media (min-width: 769px) and (max-width: 999px){ */
-	
-/* } */
-/* @media(min-width: 1000px){ */
-
-/* }  */
-
-/* Header Section End */

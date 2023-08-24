@@ -220,14 +220,15 @@ body{
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 #banner_container{
-	height:100vh;
 	background:linear-gradient(#00000079,#00000079), url(../img/slide.jpg);
-	background-size: cover;
+	height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .content_sec{
 	color:white;
-	padding: 41% 0;
 }
 
 .content_sec h1{
@@ -291,7 +292,6 @@ body{
 
 .about_card p{
 	padding:20px 0 ;
-	/* font-size:16px; */
 	line-height:1.6;
 	margin-bottom:5px;
 }
