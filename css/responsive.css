@@ -1,6 +1,6 @@
 
 /* phone */
-@media(min-width:320px) and (max-width:768px){
+@media(max-width:767px){
 	.d-none{
 		display:none;
 	}
@@ -17,7 +17,7 @@
     justify-content: end;
 	}
 	
-	.banner-bg{
+	.content_sec{
 		text-align:center;
 	}
 	.video_content{
@@ -26,7 +26,7 @@
 	
 	
 	.testimonials_sec img{
-		width:25%;
+		width:22%;
 	}
 	#banner{
 		height:90vh;
@@ -140,7 +140,7 @@
 		display:block;
 	}
 	
-	.banner-bg{
+	.content_sec {
 		text-align:center;
 	}
 	
@@ -154,6 +154,10 @@
     justify-content: end;
 	}
 	
+	
+	.testimonials_sec img{
+		width:13%;
+	}
 	
 .col-md-1{
 	width:8.33%;
